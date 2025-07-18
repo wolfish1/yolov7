@@ -1,0 +1,13 @@
+#　train and val data path as 
+# 1) directory: path/images/
+# 2) file: path/images.txt
+# 3) list: [path1/images/, path2/images/]
+train: ./data/train.txt
+val: ./data/train.txt
+test:
+
+# number of classes
+nc: 4
+
+# class names
+names: ['void', 'tin', 'empty', 'chip' ]
